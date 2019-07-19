@@ -46,3 +46,5 @@ def find_a(array)
    sum = 0 
    array.each do |num|
      sum + num
+   end
+ end
