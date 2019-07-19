@@ -38,6 +38,6 @@ end
 
 def find_a(array)
   array.all do |word|
-    word.start_with?("a")
+    word[0] == "a"
   end
 end
