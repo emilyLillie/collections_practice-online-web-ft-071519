@@ -34,3 +34,10 @@ def kesha_maker(array)
     char[2] = "$"
   end
 end
+
+
+def find_a(array)
+  array.find do |word|
+    word.start_with?("a")
+  end
+end
