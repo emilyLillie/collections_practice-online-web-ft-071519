@@ -24,3 +24,7 @@ def sort_array_char_count(array)
   end
   array
 end
+
+def reverse_array(array)
+  array.reverse 
+end
