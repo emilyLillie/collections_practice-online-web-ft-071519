@@ -51,3 +51,11 @@ def find_a(array)
  end
  
  def add_s
+     array.collect do |word|
+    if array[1] == word
+      word
+    else
+      word + "s"
+    end
+  end
+end
